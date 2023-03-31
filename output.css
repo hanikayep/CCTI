@@ -2015,21 +2015,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\/dist\/img\/banner\.png\'\)\] {
-  background-image: url('/dist/img/banner.png');
-}
-
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'dist\/img\/banner\.png\'\)\] {
-  background-image: url('dist/img/banner.png');
 }
 
 .from-white {
@@ -2889,6 +2876,10 @@ video {
   content: var(--tw-content);
 }
 
+.banner{
+  background-image: url('./dist/img/banner.png');
+}
+
 .letter-space-5{
   letter-spacing: 5px;
 }
@@ -3003,26 +2994,6 @@ video {
       max-width: 1382px;
     }
   }
-}
-
-.hover\:mb-\[3px\]:hover {
-  margin-bottom: 3px;
-}
-
-.hover\:mt-\[-3px\]:hover {
-  margin-top: -3px;
-}
-
-.hover\:mb-\[5px\]:hover {
-  margin-bottom: 5px;
-}
-
-.hover\:mb-\[8px\]:hover {
-  margin-bottom: 8px;
-}
-
-.hover\:mb-\[10px\]:hover {
-  margin-bottom: 10px;
 }
 
 .hover\:border-b-primary:hover {
